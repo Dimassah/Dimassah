@@ -636,7 +636,7 @@ div[filter]:hover .text {
    }
 
    .blog i {
-      margin-right: 10px;
+      margin-right: 5px;
    }
 
    .blog-item,
@@ -679,4 +679,7 @@ div[filter]:hover .text {
    .multiple-items img {
          width: 100%;
       }
+   .blog p {
+      width: 300px;
+   }
 }

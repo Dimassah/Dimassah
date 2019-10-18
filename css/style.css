@@ -88,9 +88,9 @@ li {
 .about__title {
    font-size: 30px;
    font-weight: bold;
-}`
+}
 
-.about__text {
+` .about__text {
    color: #212121;
    font-size: 15px;
    margin-bottom: 110px;
@@ -536,8 +536,9 @@ div[filter]:hover .text {
 
 @media screen and (max-width: 1024px) {
    header {
-      background-position: right; 
+      background-position: right;
    }
+
    nav {
       display: none;
    }
@@ -557,19 +558,22 @@ div[filter]:hover .text {
       height: 50px;
       cursor: pointer;
    }
+
    .blog {
       margin-top: 10px;
    }
-   .footer input, textarea {
+
+   .footer input,
+   textarea {
       margin-top: 20px;
       margin-bottom: 20px;
    }
 }
 
 @media screen and (max-width: 480px) {
-   
+
    .header {
-      padding: 70px 50px; 
+      padding: 70px 50px;
    }
 
    .header__title {
@@ -582,7 +586,7 @@ div[filter]:hover .text {
    }
 
    .button {
-      margin-bottom: 20px; 
+      margin-bottom: 20px;
    }
 
    .about {
@@ -598,7 +602,7 @@ div[filter]:hover .text {
       padding-top: 60px;
       padding-bottom: 40px;
 
-   }  
+   }
 
    .filter {
       padding: 20px 0;
@@ -622,10 +626,11 @@ div[filter]:hover .text {
       margin-top: 40px;
    }
 
-   .left, .right {
-      flex-direction: column; 
+   .left,
+   .right {
+      flex-direction: column;
    }
-   
+
    .blog {
       margin-left: 20px;
    }
@@ -634,12 +639,13 @@ div[filter]:hover .text {
       margin-right: 10px;
    }
 
-   .blog-item, .blog {
+   .blog-item,
+   .blog {
       min-width: 100%;
    }
 
    .button_blog {
-      margin-top: 60px; 
+      margin-top: 60px;
    }
 
    .blog-item p {
@@ -658,8 +664,19 @@ div[filter]:hover .text {
       order: 2;
    }
 
-   .footer, .services {
+   .footer,
+   .services {
       padding-top: 60px;
       padding-bottom: 60px;
    }
+}
+
+@media screen and (max-width: 320px) {
+   .menu-icon {
+      padding: 8px;
+   }
+
+   .multiple-items img {
+         width: 100%;
+      }
 }
